@@ -1,0 +1,134 @@
+.new2{
+  position: fixed;
+  top: 0;
+  width:100%;
+  padding-right: 50px;
+  padding-top: 15px;
+  padding-bottom: 5px;
+  background-color: rgba(204, 204, 255,1);
+}
+nav ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: right;
+  color: black;
+}
+nav ul li{
+  display:inline-block;
+  margin-left: 20px;
+  color: black;
+  
+}
+nav ul li:first-child{
+  margin-left: 0;
+
+}
+nav ul li a{
+  color: black;
+  text-decoration: none;
+
+}
+nav ul li a:hover{
+  text-decoration: underline;
+}
+body{
+  height: 100vh;
+  margin: 0;
+  background-image: url('https://source.unsplash.com/1600x900/?landscape');
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    
+  font-family: 'Playfair Display', sans-serif;
+  background: #222;
+    
+  font-size: 120%;
+    
+}
+  
+.card {
+    background:rgba(204, 204, 255,0.8);
+    color: black;
+    padding: 2em;
+    border-radius: 30px;
+    width: 100%; 
+    height: 300px;
+    max-width: 420px;
+    margin: 1em;
+  }
+  
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    border: rgb(153, 102, 255);
+     
+  }
+  
+button {
+    
+    margin: 0.5em;
+    border-radius: 50%;
+    border: solid 4px rgb(153, 102, 255);
+    height: 44px;
+    width: 44px;
+    outline: none;
+    background: #7c7c7c2b;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+  }
+  
+input.search-bar {
+    
+    padding: 0.4em 1em;
+    border-radius: 24px;
+    background:rgba(204, 204, 255,0);
+    color: black;
+    font-family: inherit;
+    font-size: 105%;
+    border: solid rgb(153, 102, 255)4px;
+    width:calc(100% - 100px);
+  }
+  
+  
+button:hover {
+    background: #7c7c7c6b;
+  }
+  
+h1.temp {
+    margin: 0;
+    margin-bottom: 0.4em;
+  }
+  
+.flex {
+    display: flex;
+    align-items: center;
+  }
+  
+.description {
+    text-transform: capitalize;
+    margin-left: 8px;
+  }
+  
+.weather.loading {
+    visibility: hidden;
+    max-height: 20px;
+    position: relative;
+  }
+  
+.weather.loading:after {
+    visibility: visible;
+    content: "Loading...";
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 20px;
+  }
+::placeholder{
+    color: black;
+  }
+  
+
