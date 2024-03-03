@@ -21,7 +21,7 @@ To run the Weather Forecast Web App locally, follow these steps:
 Clone this repository to your local machine.
 Install dependencies using npm install.
 Run the app with npm start.
-Access the app in your web browser at http://localhost:3000.
+Access the app in your web browser at https://priya8nanda.github.io/weather-forecast/
 
 Technologies Used
 Frontend: HTML, CSS, JavaScript
